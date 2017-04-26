@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(187,219,232);
+    margin:0;
+
+}
+.chart{
+    display: block;
+    position: relative;
+    height: auto !important;
+    width: 90% !important;
+    max-width: 80%;
+    margin:0% auto;
+    width: 50%;
+    
+}
+
+#menuInputs{
+    display:block;
+    margin:0 auto;
+    width: 50%;
+}
+
+select{
+    border-radius: 10px;
+    background-color: rgba(67,158,192,0.5)
+}
+
+button{
+    background-color: rgba(67,158,192,0.5);
+    border:none;
+    border-radius: 10px;
+    outline:none;
+}
+button:hover{
+    box-shadow: 2px 2px 1px #888888
+    
+}
+button:active {
+    vertical-align: top;
+    padding: 1px 5px 1px;
+}
+.currT{
+    text-align: center;
+    display: inline-block;
+    width:24%;
+}
+#temps{
+    border-bottom:1px solid black;
+    margin-bottom: 5px;
+}
+.currTname{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.currTvalue{
+    margin: 5px;
+}
+#temps{
+    background-color:rgb(146,197,218);
+}
